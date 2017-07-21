@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { NgxCroppieComponent } from 'ngx-croppie';
-import {CroppieOptions} from 'croppie';
+import { CroppieOptions } from 'croppie';
 
 @Component({
   selector: 'app-root',
@@ -75,7 +75,7 @@ export class AppComponent {
     if (!evt.target.files) { return; }
     if (evt.target.files.length !== 1) { return; }
     const file = evt.target.files[0];
-    if (file.type !== 'image/jpeg') { return; }
+    if (file.type !== 'image/jpeg' && file.type !== 'image/png' && file.type !== 'image/gif' && file.type !== 'image/jpg') { return; }
     const fr = new FileReader();
     fr.onloadend = (loadEvent) => {
       this.croppieImage = fr.result;
