@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-prod": "ng build --prod --base-href \"https://deej81.github.io/ngx-croppie-example\"",
+    "build-prod": "ng build --prod --base-href \"https://deej81.github.io/ngx-croppie-example/\"",
     "publish": "npm run build-prod && angular-cli-ghpages"
   },
   "private": true,
