@@ -8,7 +8,7 @@ import { CroppieOptions } from 'croppie';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'app works';
   @ViewChild('ngxCroppie') ngxCroppie: NgxCroppieComponent;
 
   widthPx = '400';
