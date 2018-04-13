@@ -23,6 +23,7 @@
     "@angular/router": "*",
     "core-js": "*",
     "croppie": "2.6.2",
+    "ngx-croppie": "^1.0.0",
     "rxjs": "*",
     "zone.js": "*"
   },
