@@ -22,14 +22,14 @@
     "@angular/platform-browser-dynamic": "*",
     "@angular/router": "*",
     "core-js": "*",
-    "croppie": "2.5.1",
-    "ngx-croppie": "*",
+    "croppie": "2.6.2",
     "rxjs": "*",
     "zone.js": "*"
   },
   "devDependencies": {
     "@angular/cli": "*",
     "@angular/compiler-cli": "*",
+    "@types/croppie": "^2.5.2",
     "@types/jasmine": "*",
     "@types/node": "^6.0.60",
     "codelyzer": "*",
